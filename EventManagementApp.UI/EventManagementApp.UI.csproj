@@ -6,4 +6,18 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.BrowserLink" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EventManagementApp.Business\EventManagementApp.Business.csproj" />
+    <ProjectReference Include="..\EventManagementApp.Core\EventManagementApp.Core.csproj" />
+    <ProjectReference Include="..\EventManagementApp.Data\EventManagementApp.Data.csproj" />
+  </ItemGroup>
+
 </Project>

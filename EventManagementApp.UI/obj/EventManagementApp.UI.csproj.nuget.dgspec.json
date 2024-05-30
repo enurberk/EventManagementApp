@@ -4,14 +4,81 @@
     "C:\\Users\\elifn\\OneDrive\\Masaüstü\\EventManagementApp\\EventManagementApp.UI\\EventManagementApp.UI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\elifn\\OneDrive\\Masaüstü\\EventManagementApp\\EventManagementApp.UI\\EventManagementApp.UI.csproj": {
+    "C:\\Users\\elifn\\OneDrive\\Masaüstü\\EventManagementApp\\EventManagementApp.Business\\EventManagementApp.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\elifn\\OneDrive\\Masaüstü\\EventManagementApp\\EventManagementApp.UI\\EventManagementApp.UI.csproj",
-        "projectName": "EventManagementApp.UI",
-        "projectPath": "C:\\Users\\elifn\\OneDrive\\Masaüstü\\EventManagementApp\\EventManagementApp.UI\\EventManagementApp.UI.csproj",
+        "projectUniqueName": "C:\\Users\\elifn\\OneDrive\\Masaüstü\\EventManagementApp\\EventManagementApp.Business\\EventManagementApp.Business.csproj",
+        "projectName": "EventManagementApp.Business",
+        "projectPath": "C:\\Users\\elifn\\OneDrive\\Masaüstü\\EventManagementApp\\EventManagementApp.Business\\EventManagementApp.Business.csproj",
         "packagesPath": "C:\\Users\\elifn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\elifn\\OneDrive\\Masaüstü\\EventManagementApp\\EventManagementApp.UI\\obj\\",
+        "outputPath": "C:\\Users\\elifn\\OneDrive\\Masaüstü\\EventManagementApp\\EventManagementApp.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\elifn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\elifn\\OneDrive\\Masaüstü\\EventManagementApp\\EventManagementApp.Core\\EventManagementApp.Core.csproj": {
+                "projectPath": "C:\\Users\\elifn\\OneDrive\\Masaüstü\\EventManagementApp\\EventManagementApp.Core\\EventManagementApp.Core.csproj"
+              },
+              "C:\\Users\\elifn\\OneDrive\\Masaüstü\\EventManagementApp\\EventManagementApp.Data\\EventManagementApp.Data.csproj": {
+                "projectPath": "C:\\Users\\elifn\\OneDrive\\Masaüstü\\EventManagementApp\\EventManagementApp.Data\\EventManagementApp.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\elifn\\OneDrive\\Masaüstü\\EventManagementApp\\EventManagementApp.Core\\EventManagementApp.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\elifn\\OneDrive\\Masaüstü\\EventManagementApp\\EventManagementApp.Core\\EventManagementApp.Core.csproj",
+        "projectName": "EventManagementApp.Core",
+        "projectPath": "C:\\Users\\elifn\\OneDrive\\Masaüstü\\EventManagementApp\\EventManagementApp.Core\\EventManagementApp.Core.csproj",
+        "packagesPath": "C:\\Users\\elifn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\elifn\\OneDrive\\Masaüstü\\EventManagementApp\\EventManagementApp.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\elifn\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,6 +111,168 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\elifn\\OneDrive\\Masaüstü\\EventManagementApp\\EventManagementApp.Data\\EventManagementApp.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\elifn\\OneDrive\\Masaüstü\\EventManagementApp\\EventManagementApp.Data\\EventManagementApp.Data.csproj",
+        "projectName": "EventManagementApp.Data",
+        "projectPath": "C:\\Users\\elifn\\OneDrive\\Masaüstü\\EventManagementApp\\EventManagementApp.Data\\EventManagementApp.Data.csproj",
+        "packagesPath": "C:\\Users\\elifn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\elifn\\OneDrive\\Masaüstü\\EventManagementApp\\EventManagementApp.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\elifn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\elifn\\OneDrive\\Masaüstü\\EventManagementApp\\EventManagementApp.Core\\EventManagementApp.Core.csproj": {
+                "projectPath": "C:\\Users\\elifn\\OneDrive\\Masaüstü\\EventManagementApp\\EventManagementApp.Core\\EventManagementApp.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\elifn\\OneDrive\\Masaüstü\\EventManagementApp\\EventManagementApp.UI\\EventManagementApp.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\elifn\\OneDrive\\Masaüstü\\EventManagementApp\\EventManagementApp.UI\\EventManagementApp.UI.csproj",
+        "projectName": "EventManagementApp.UI",
+        "projectPath": "C:\\Users\\elifn\\OneDrive\\Masaüstü\\EventManagementApp\\EventManagementApp.UI\\EventManagementApp.UI.csproj",
+        "packagesPath": "C:\\Users\\elifn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\elifn\\OneDrive\\Masaüstü\\EventManagementApp\\EventManagementApp.UI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\elifn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\elifn\\OneDrive\\Masaüstü\\EventManagementApp\\EventManagementApp.Business\\EventManagementApp.Business.csproj": {
+                "projectPath": "C:\\Users\\elifn\\OneDrive\\Masaüstü\\EventManagementApp\\EventManagementApp.Business\\EventManagementApp.Business.csproj"
+              },
+              "C:\\Users\\elifn\\OneDrive\\Masaüstü\\EventManagementApp\\EventManagementApp.Core\\EventManagementApp.Core.csproj": {
+                "projectPath": "C:\\Users\\elifn\\OneDrive\\Masaüstü\\EventManagementApp\\EventManagementApp.Core\\EventManagementApp.Core.csproj"
+              },
+              "C:\\Users\\elifn\\OneDrive\\Masaüstü\\EventManagementApp\\EventManagementApp.Data\\EventManagementApp.Data.csproj": {
+                "projectPath": "C:\\Users\\elifn\\OneDrive\\Masaüstü\\EventManagementApp\\EventManagementApp.Data\\EventManagementApp.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.BrowserLink": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
