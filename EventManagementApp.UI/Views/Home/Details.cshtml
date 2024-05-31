@@ -1,0 +1,22 @@
+﻿@model EventManagementApp.UI.Models.Events.EventViewModel
+
+@{
+    ViewData["Title"] = "Event Details";
+}
+
+<h1 class="text-center">Event Details</h1>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-8 border p-4">
+            <img src="@Model.Image" alt="Event Image" class="img-fluid mb-4" />
+            <h2 class="text-center">@Model.Title</h2>
+            <p><strong>Location:</strong> @Model.Location</p>
+            <p><strong>Date:</strong> @Model.Time</p>
+            <p><strong>Is Free:</strong> @(Model.IsFree ? "Yes" : "No")</p>
+            <p><strong>Price:</strong> @Model.Price?.ToString("C")</p>
+            <p><strong>Description:</strong> @Model.Description</p>
+            <p><strong>Event Type:</strong> @Model.EventType</p>
+        </div>
+    </div>
+</div>

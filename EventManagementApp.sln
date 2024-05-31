@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventManagementApp.UI", "EventManagementApp.UI\EventManagementApp.UI.csproj", "{F0E27CD9-7C35-4BB5-B3FE-0F0373F72C5E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventManagementApp.UI", "EventManagementApp.UI\EventManagementApp.UI.csproj", "{F0E27CD9-7C35-4BB5-B3FE-0F0373F72C5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventManagementApp.Business", "EventManagementApp.Business\EventManagementApp.Business.csproj", "{2627C900-917F-44CA-9062-37B9EFF28B41}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventManagementApp.Business", "EventManagementApp.Business\EventManagementApp.Business.csproj", "{2627C900-917F-44CA-9062-37B9EFF28B41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventManagementApp.Data", "EventManagementApp.Data\EventManagementApp.Data.csproj", "{977A966D-FF37-4BF5-8981-F0DC3628BFAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventManagementApp.Data", "EventManagementApp.Data\EventManagementApp.Data.csproj", "{977A966D-FF37-4BF5-8981-F0DC3628BFAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventManagementApp.Core", "EventManagementApp.Core\EventManagementApp.Core.csproj", "{9A65F7B3-EDDF-4283-9524-765A77CB4B0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventManagementApp.Core", "EventManagementApp.Core\EventManagementApp.Core.csproj", "{9A65F7B3-EDDF-4283-9524-765A77CB4B0C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

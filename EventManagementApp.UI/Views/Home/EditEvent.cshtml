@@ -1,0 +1,53 @@
+﻿@model EventManagementApp.UI.Models.Events.EventViewModel
+
+<h1>Edit Event</h1>
+
+<form asp-action="EditEvent" method="post">
+    <input type="hidden" asp-for="Id" />
+    <div class="mb-3">
+        <label for="title" class="form-label">Title</label>
+        <input type="text" class="form-control" id="title" name="Title" asp-for="Title" required>
+    </div>
+    <div class="mb-3">
+        <label for="location" class="form-label">Location</label>
+        <input type="text" class="form-control" id="location" name="Location" asp-for="Location" required>
+    </div>
+    <div class="mb-3">
+        <label for="time" class="form-label">Date</label>
+        <input type="datetime-local" class="form-control" id="time" name="Time" asp-for="Time" required>
+    </div>
+    <div class="mb-3">
+        <label for="isFree" class="form-label">Is Free</label>
+        <input type="checkbox" id="isFree" name="IsFree" asp-for="IsFree" onchange="togglePrice()">@(Model.IsFree ? "checked" : "")
+    </div>
+    <div class="mb-3">
+        <label for="price" class="form-label">Price</label>
+        <input type="text" class="form-control" id="price" name="Price" asp-for="Price" step="0.01">@(Model.IsFree ? "disabled" : "")
+    </div>
+    <div class="mb-3">
+        <label for="description" class="form-label">Description</label>
+        <input type="text" class="form-control" id="description" name="Description" asp-for="Description" required>
+    </div>
+    <div class="mb-3">
+        <label for="image" class="form-label">Image URL</label>
+        <input type="text" class="form-control" id="image" name="Image" asp-for="Image" required>
+    </div>
+    <div class="mb-3">
+        <label for="eventType" class="form-label">Event Type</label>
+        <select class="form-select" id="eventType" name="EventType" asp-for="EventType" required>
+            <option value="Conference">@(Model.EventType == "Conference" ? "selected" : "")Conference</option>
+            <option value="Workshop">@(Model.EventType == "Workshop" ? "selected" : "")Workshop</option>
+            <option value="Concert">@(Model.EventType == "Concert" ? "selected" : "")Concert</option>
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+@section Scripts {
+    <script>
+        function togglePrice() {
+            var isFree = document.getElementById('isFree').checked;
+            document.getElementById('price').disabled = isFree;
+        }
+    </script>
+}

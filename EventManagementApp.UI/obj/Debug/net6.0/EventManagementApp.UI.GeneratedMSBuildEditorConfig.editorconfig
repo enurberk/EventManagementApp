@@ -18,12 +18,16 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\elifn\OneDrive\Masaüstü\EventManagementApp\EventManagementApp.UI
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/elifn/OneDrive/Masaüstü/EventManagementApp/EventManagementApp.UI/Views/EventAddUpdate/EventAddUpdate.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRBZGRVcGRhdGVcRXZlbnRBZGRVcGRhdGUuY3NodG1s
+[C:/Users/elifn/OneDrive/Masaüstü/EventManagementApp/EventManagementApp.UI/Views/Home/AddEvent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRFdmVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/elifn/OneDrive/Masaüstü/EventManagementApp/EventManagementApp.UI/Views/EventDetail/EventDetails.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnREZXRhaWxcRXZlbnREZXRhaWxzLmNzaHRtbA==
+[C:/Users/elifn/OneDrive/Masaüstü/EventManagementApp/EventManagementApp.UI/Views/Home/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/elifn/OneDrive/Masaüstü/EventManagementApp/EventManagementApp.UI/Views/Home/EditEvent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0RXZlbnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/elifn/OneDrive/Masaüstü/EventManagementApp/EventManagementApp.UI/Views/Home/Index.cshtml]

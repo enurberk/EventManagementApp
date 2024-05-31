@@ -1,26 +1,56 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿@model IEnumerable<EventManagementApp.UI.Models.Events.EventViewModel>
+
+<h1>Event List</h1>
 
 <div class="container">
-    <div class="row">
-
-        <div class="col-lg-4 col-sm-12 mb-4">
-            <div class="card border-none">
-                <div class="card-image">
-                    <img src="images/post-item1.jpg" alt="" class="img-fluid">
-                </div>
-                <div class="card-body text-uppercase">
-                    <div class="card-meta text-muted">
-                        <span class="meta-date">feb 22, 2023</span>
-                        <span class="meta-category">- Gadgets</span>
-                    </div>
-                    <h3 class="card-title">
-                        <a href="#">Get some cool gadgets in 2023</a>
-                    </h3>
-                </div>
-            </div>
+    <div class="row mb-3">
+        <div class="col">
+            <a href="@Url.Action("AddEvent", "Home")" class="btn btn-primary">Add Event</a>
         </div>
-
     </div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Location</th>
+                <th>Date</th>
+                <th>Is Free</th>
+                <th>Price</th>
+                <th>Description</th>
+                <th>Image</th>
+                <th>Event Type</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var e in Model)
+            {
+                <tr>
+                    <td><a href="@Url.Action("Details", "Home", new { id = e.Id })">@e.Title</a></td>
+                    <td>@e.Location</td>
+                    <td>@e.Time</td>
+                    <td>@e.IsFree</td>
+                    <td>@e.Price?.ToString("C")</td>
+                    <td>@e.Description</td>
+                    <td><img src="@e.Image" alt="Event Image" style="width:100px;height:auto;" /></td>
+                    <td>@e.EventType</td>
+                    <td>
+                        <a href="@Url.Action("EditEvent", "Home", new { id = e.Id })" class="btn btn-warning btn-sm">Edit</a>
+                        <button class="btn btn-danger btn-sm" onclick="confirmDelete('@Url.Action("DeleteEvent", "Home", new { id = e.Id })')">Delete</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
 </div>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        function confirmDelete(url) {
+            if (confirm("Are you sure you want to delete this event?")) {
+                window.location.href = url;
+            }
+        }
+    </script>
+}

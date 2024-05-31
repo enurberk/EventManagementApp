@@ -2,11 +2,20 @@ using EventManagementApp.Business.Interfaces;
 using EventManagementApp.Business.Services;
 using EventManagementApp.Data.Context;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using EventManagementApp.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+// Add Memory Cache services
+builder.Services.AddMemoryCache();
 
 // Configure MySQL and Entity Framework Core
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
