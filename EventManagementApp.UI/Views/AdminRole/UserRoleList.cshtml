@@ -1,0 +1,29 @@
+﻿﻿@using EventManagementApp.Data.Entities
+@model List<AppUser>
+
+
+@{
+    ViewData["Title"] = "User Role List";
+}
+
+
+<h1>User List</h1>
+<table class="table table-bordered">
+    <tr>
+        <th>User</th>
+        <th>Assgin a Role</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.UserName</td>
+            <td>
+                <a asp-action="AssignRole" asp-route-id="@item.Id" class="btn btn-sm btn-warning">Assgin a Role</a>
+            </td>
+        </tr>
+    }
+
+</table>
+
+<a asp-action="Index" class="btn btn-sm btn-primary">Return Role List</a>

@@ -3,24 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\elifn\\OneDrive\\Masa\u00FCst\u00FC\\EventManagementApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{977A966D-FF37-4BF5-8981-F0DC3628BFAE}|EventManagementApp.Data\\EventManagementApp.Data.csproj|c:\\users\\elifn\\onedrive\\masa\u00FCst\u00FC\\eventmanagementapp\\eventmanagementapp.data\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{977A966D-FF37-4BF5-8981-F0DC3628BFAE}|EventManagementApp.Data\\EventManagementApp.Data.csproj|solutionrelative:eventmanagementapp.data\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F0E27CD9-7C35-4BB5-B3FE-0F0373F72C5E}|EventManagementApp.UI\\EventManagementApp.UI.csproj|c:\\users\\elifn\\onedrive\\masa\u00FCst\u00FC\\eventmanagementapp\\eventmanagementapp.ui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F0E27CD9-7C35-4BB5-B3FE-0F0373F72C5E}|EventManagementApp.UI\\EventManagementApp.UI.csproj|solutionrelative:eventmanagementapp.ui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0E27CD9-7C35-4BB5-B3FE-0F0373F72C5E}|EventManagementApp.UI\\EventManagementApp.UI.csproj|c:\\users\\elifn\\onedrive\\masa\u00FCst\u00FC\\eventmanagementapp\\eventmanagementapp.ui\\views\\home\\editevent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F0E27CD9-7C35-4BB5-B3FE-0F0373F72C5E}|EventManagementApp.UI\\EventManagementApp.UI.csproj|solutionrelative:eventmanagementapp.ui\\views\\home\\editevent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F0E27CD9-7C35-4BB5-B3FE-0F0373F72C5E}|EventManagementApp.UI\\EventManagementApp.UI.csproj|c:\\users\\elifn\\onedrive\\masa\u00FCst\u00FC\\eventmanagementapp\\eventmanagementapp.ui\\controllers\\adminrolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0E27CD9-7C35-4BB5-B3FE-0F0373F72C5E}|EventManagementApp.UI\\EventManagementApp.UI.csproj|solutionrelative:eventmanagementapp.ui\\controllers\\adminrolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0E27CD9-7C35-4BB5-B3FE-0F0373F72C5E}|EventManagementApp.UI\\EventManagementApp.UI.csproj|c:\\users\\elifn\\onedrive\\masa\u00FCst\u00FC\\eventmanagementapp\\eventmanagementapp.ui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F0E27CD9-7C35-4BB5-B3FE-0F0373F72C5E}|EventManagementApp.UI\\EventManagementApp.UI.csproj|solutionrelative:eventmanagementapp.ui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F0E27CD9-7C35-4BB5-B3FE-0F0373F72C5E}|EventManagementApp.UI\\EventManagementApp.UI.csproj|c:\\users\\elifn\\onedrive\\masa\u00FCst\u00FC\\eventmanagementapp\\eventmanagementapp.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0E27CD9-7C35-4BB5-B3FE-0F0373F72C5E}|EventManagementApp.UI\\EventManagementApp.UI.csproj|solutionrelative:eventmanagementapp.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0E27CD9-7C35-4BB5-B3FE-0F0373F72C5E}|EventManagementApp.UI\\EventManagementApp.UI.csproj|c:\\users\\elifn\\onedrive\\masa\u00FCst\u00FC\\eventmanagementapp\\eventmanagementapp.ui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0E27CD9-7C35-4BB5-B3FE-0F0373F72C5E}|EventManagementApp.UI\\EventManagementApp.UI.csproj|solutionrelative:eventmanagementapp.ui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F0E27CD9-7C35-4BB5-B3FE-0F0373F72C5E}|EventManagementApp.UI\\EventManagementApp.UI.csproj|c:\\users\\elifn\\onedrive\\masa\u00FCst\u00FC\\eventmanagementapp\\eventmanagementapp.ui\\models\\identity\\roleassignviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0E27CD9-7C35-4BB5-B3FE-0F0373F72C5E}|EventManagementApp.UI\\EventManagementApp.UI.csproj|solutionrelative:eventmanagementapp.ui\\models\\identity\\roleassignviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2627C900-917F-44CA-9062-37B9EFF28B41}|EventManagementApp.Business\\EventManagementApp.Business.csproj|c:\\users\\elifn\\onedrive\\masa\u00FCst\u00FC\\eventmanagementapp\\eventmanagementapp.business\\services\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2627C900-917F-44CA-9062-37B9EFF28B41}|EventManagementApp.Business\\EventManagementApp.Business.csproj|solutionrelative:eventmanagementapp.business\\services\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F0E27CD9-7C35-4BB5-B3FE-0F0373F72C5E}|EventManagementApp.UI\\EventManagementApp.UI.csproj|c:\\users\\elifn\\onedrive\\masa\u00FCst\u00FC\\eventmanagementapp\\eventmanagementapp.ui\\views\\adminrole\\assignrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F0E27CD9-7C35-4BB5-B3FE-0F0373F72C5E}|EventManagementApp.UI\\EventManagementApp.UI.csproj|solutionrelative:eventmanagementapp.ui\\views\\adminrole\\assignrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0E27CD9-7C35-4BB5-B3FE-0F0373F72C5E}|EventManagementApp.UI\\EventManagementApp.UI.csproj|c:\\users\\elifn\\onedrive\\masa\u00FCst\u00FC\\eventmanagementapp\\eventmanagementapp.ui\\views\\adminrole\\userrolelist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F0E27CD9-7C35-4BB5-B3FE-0F0373F72C5E}|EventManagementApp.UI\\EventManagementApp.UI.csproj|solutionrelative:eventmanagementapp.ui\\views\\adminrole\\userrolelist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0E27CD9-7C35-4BB5-B3FE-0F0373F72C5E}|EventManagementApp.UI\\EventManagementApp.UI.csproj|c:\\users\\elifn\\onedrive\\masa\u00FCst\u00FC\\eventmanagementapp\\eventmanagementapp.ui\\views\\adminrole\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F0E27CD9-7C35-4BB5-B3FE-0F0373F72C5E}|EventManagementApp.UI\\EventManagementApp.UI.csproj|solutionrelative:eventmanagementapp.ui\\views\\adminrole\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0E27CD9-7C35-4BB5-B3FE-0F0373F72C5E}|EventManagementApp.UI\\EventManagementApp.UI.csproj|c:\\users\\elifn\\onedrive\\masa\u00FCst\u00FC\\eventmanagementapp\\eventmanagementapp.ui\\views\\adminrole\\updaterole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F0E27CD9-7C35-4BB5-B3FE-0F0373F72C5E}|EventManagementApp.UI\\EventManagementApp.UI.csproj|solutionrelative:eventmanagementapp.ui\\views\\adminrole\\updaterole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,74 +42,112 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\elifn\\OneDrive\\Masa\u00FCst\u00FC\\EventManagementApp\\EventManagementApp.UI\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "EventManagementApp.UI\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\elifn\\OneDrive\\Masa\u00FCst\u00FC\\EventManagementApp\\EventManagementApp.UI\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "EventManagementApp.UI\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAIEAAAAAAAAAAAAqwJYAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T09:59:05.617Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\elifn\\OneDrive\\Masa\u00FCst\u00FC\\EventManagementApp\\EventManagementApp.UI\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "EventManagementApp.UI\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\elifn\\OneDrive\\Masa\u00FCst\u00FC\\EventManagementApp\\EventManagementApp.UI\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "EventManagementApp.UI\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAIAAAADAAAA",
+              "DocumentMoniker": "C:\\Users\\elifn\\OneDrive\\Masa\u00FCst\u00FC\\EventManagementApp\\EventManagementApp.UI\\Views\\AdminRole\\Index.cshtml",
+              "RelativeDocumentMoniker": "EventManagementApp.UI\\Views\\AdminRole\\Index.cshtml",
+              "ToolTip": "C:\\Users\\elifn\\OneDrive\\Masa\u00FCst\u00FC\\EventManagementApp\\EventManagementApp.UI\\Views\\AdminRole\\Index.cshtml",
+              "RelativeToolTip": "EventManagementApp.UI\\Views\\AdminRole\\Index.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-31T09:59:50.11Z",
+              "WhenOpened": "2024-06-01T06:33:59.576Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EventService.cs",
-              "DocumentMoniker": "C:\\Users\\elifn\\OneDrive\\Masa\u00FCst\u00FC\\EventManagementApp\\EventManagementApp.Business\\Services\\EventService.cs",
-              "RelativeDocumentMoniker": "EventManagementApp.Business\\Services\\EventService.cs",
-              "ToolTip": "C:\\Users\\elifn\\OneDrive\\Masa\u00FCst\u00FC\\EventManagementApp\\EventManagementApp.Business\\Services\\EventService.cs",
-              "RelativeToolTip": "EventManagementApp.Business\\Services\\EventService.cs",
-              "ViewState": "AQIAAE8AAAAAAAAAAAAqwGkAAAAJAAAA",
+              "DocumentIndex": 1,
+              "Title": "AdminRoleController.cs",
+              "DocumentMoniker": "C:\\Users\\elifn\\OneDrive\\Masa\u00FCst\u00FC\\EventManagementApp\\EventManagementApp.UI\\Controllers\\AdminRoleController.cs",
+              "RelativeDocumentMoniker": "EventManagementApp.UI\\Controllers\\AdminRoleController.cs",
+              "ToolTip": "C:\\Users\\elifn\\OneDrive\\Masa\u00FCst\u00FC\\EventManagementApp\\EventManagementApp.UI\\Controllers\\AdminRoleController.cs",
+              "RelativeToolTip": "EventManagementApp.UI\\Controllers\\AdminRoleController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T10:27:13.479Z",
+              "WhenOpened": "2024-06-01T06:27:02.388Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\elifn\\OneDrive\\Masa\u00FCst\u00FC\\EventManagementApp\\EventManagementApp.Data\\Context\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "EventManagementApp.Data\\Context\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\elifn\\OneDrive\\Masa\u00FCst\u00FC\\EventManagementApp\\EventManagementApp.Data\\Context\\ApplicationDbContext.cs",
-              "RelativeToolTip": "EventManagementApp.Data\\Context\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T15:36:09.709Z",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\elifn\\OneDrive\\Masa\u00FCst\u00FC\\EventManagementApp\\EventManagementApp.UI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "EventManagementApp.UI\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\elifn\\OneDrive\\Masa\u00FCst\u00FC\\EventManagementApp\\EventManagementApp.UI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "EventManagementApp.UI\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAABZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-01T08:07:38.048Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EditEvent.cshtml",
-              "DocumentMoniker": "C:\\Users\\elifn\\OneDrive\\Masa\u00FCst\u00FC\\EventManagementApp\\EventManagementApp.UI\\Views\\Home\\EditEvent.cshtml",
-              "RelativeDocumentMoniker": "EventManagementApp.UI\\Views\\Home\\EditEvent.cshtml",
-              "ToolTip": "C:\\Users\\elifn\\OneDrive\\Masa\u00FCst\u00FC\\EventManagementApp\\EventManagementApp.UI\\Views\\Home\\EditEvent.cshtml",
-              "RelativeToolTip": "EventManagementApp.UI\\Views\\Home\\EditEvent.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAAAUAAAAoAAAA",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\elifn\\OneDrive\\Masa\u00FCst\u00FC\\EventManagementApp\\EventManagementApp.UI\\Program.cs",
+              "RelativeDocumentMoniker": "EventManagementApp.UI\\Program.cs",
+              "ToolTip": "C:\\Users\\elifn\\OneDrive\\Masa\u00FCst\u00FC\\EventManagementApp\\EventManagementApp.UI\\Program.cs",
+              "RelativeToolTip": "EventManagementApp.UI\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T08:02:29.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RoleAssignViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\elifn\\OneDrive\\Masa\u00FCst\u00FC\\EventManagementApp\\EventManagementApp.UI\\Models\\Identity\\RoleAssignViewModel.cs",
+              "RelativeDocumentMoniker": "EventManagementApp.UI\\Models\\Identity\\RoleAssignViewModel.cs",
+              "ToolTip": "C:\\Users\\elifn\\OneDrive\\Masa\u00FCst\u00FC\\EventManagementApp\\EventManagementApp.UI\\Models\\Identity\\RoleAssignViewModel.cs",
+              "RelativeToolTip": "EventManagementApp.UI\\Models\\Identity\\RoleAssignViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T07:45:31.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UpdateRole.cshtml",
+              "DocumentMoniker": "C:\\Users\\elifn\\OneDrive\\Masa\u00FCst\u00FC\\EventManagementApp\\EventManagementApp.UI\\Views\\AdminRole\\UpdateRole.cshtml",
+              "RelativeDocumentMoniker": "EventManagementApp.UI\\Views\\AdminRole\\UpdateRole.cshtml",
+              "ToolTip": "C:\\Users\\elifn\\OneDrive\\Masa\u00FCst\u00FC\\EventManagementApp\\EventManagementApp.UI\\Views\\AdminRole\\UpdateRole.cshtml",
+              "RelativeToolTip": "EventManagementApp.UI\\Views\\AdminRole\\UpdateRole.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-31T15:21:37.189Z",
+              "WhenOpened": "2024-06-01T07:37:14.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AssignRole.cshtml",
+              "DocumentMoniker": "C:\\Users\\elifn\\OneDrive\\Masa\u00FCst\u00FC\\EventManagementApp\\EventManagementApp.UI\\Views\\AdminRole\\AssignRole.cshtml",
+              "RelativeDocumentMoniker": "EventManagementApp.UI\\Views\\AdminRole\\AssignRole.cshtml",
+              "ToolTip": "C:\\Users\\elifn\\OneDrive\\Masa\u00FCst\u00FC\\EventManagementApp\\EventManagementApp.UI\\Views\\AdminRole\\AssignRole.cshtml",
+              "RelativeToolTip": "EventManagementApp.UI\\Views\\AdminRole\\AssignRole.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-01T07:25:28.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserRoleList.cshtml",
+              "DocumentMoniker": "C:\\Users\\elifn\\OneDrive\\Masa\u00FCst\u00FC\\EventManagementApp\\EventManagementApp.UI\\Views\\AdminRole\\UserRoleList.cshtml",
+              "RelativeDocumentMoniker": "EventManagementApp.UI\\Views\\AdminRole\\UserRoleList.cshtml",
+              "ToolTip": "C:\\Users\\elifn\\OneDrive\\Masa\u00FCst\u00FC\\EventManagementApp\\EventManagementApp.UI\\Views\\AdminRole\\UserRoleList.cshtml",
+              "RelativeToolTip": "EventManagementApp.UI\\Views\\AdminRole\\UserRoleList.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-01T07:18:52.023Z",
               "EditorCaption": ""
             }
           ]

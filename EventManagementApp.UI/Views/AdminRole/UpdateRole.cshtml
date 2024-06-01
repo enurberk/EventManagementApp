@@ -1,0 +1,21 @@
+﻿@model EventManagementApp.UI.Models.Identity.RoleUpdateViewModel
+
+@{
+    ViewData["Title"] = "Edit Role";
+}
+
+<h1>Edit Role</h1>
+
+<form method="post">
+    <input type="hidden" asp-for="@Model.Id" />
+    <div class="mb-3">
+        <label asp-for="@Model.Name" class="form-label"></label>
+        <input asp-for="@Model.Name" class="form-control" />
+        <span asp-validation-for="@Model.Name" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -1,0 +1,27 @@
+﻿@using EventManagementApp.UI.Models
+@model List<RoleAssignViewModel>
+
+
+    @{
+        ViewData["Title"] = "Assign Role";
+    }
+    <h1>Assing Role</h1>
+    <form method="post">
+        @for (int i = 0; i < Model.Count; i++)
+        {
+            <div class="form-check">
+                <input type="hidden" asp-for="@Model[i].RoleId" />
+                <input type="hidden" asp-for="@Model[i].Name" />
+                <input type="checkbox" asp-for="@Model[i].Exists" class="form-check-input" />
+                <label class="form-check-label" for="@Model[i].Exists">@Model[i].Name</label>
+            </div>
+        }
+        <br />
+
+        <button class="btn btn-outline-primary">Save</button>
+    </form>
+    <br />
+<a asp-action="UserRoleList" class="btn btn-primary">User Role List</a>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

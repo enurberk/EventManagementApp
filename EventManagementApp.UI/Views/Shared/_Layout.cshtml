@@ -18,6 +18,12 @@
                         <li class="nav-item">
                             <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Event List</a>
                         </li>
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="AdminRole" asp-action="Index">Manage Roles</a>
+                            </li>
+                        }
                     </ul>
                 </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
@@ -26,12 +32,24 @@
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-end">
                     <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <button type="button" class="btn btn-light mr" asp-area="" asp-controller="Home" asp-action="Index">Sign In</button>
-                        </li>
-                        <li class="nav-item">
-                            <button type="button" class="btn btn-secondary mr" asp-area="" asp-controller="Home" asp-action="Privacy">Sign Up</button>
-                        </li>
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <li class="nav-item">
+                                <span class="navbar-text">Hello, @User.Identity.Name!</span>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="Login" asp-action="LogOut">Logout</a>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="Login" asp-action="Index">Sign In</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="RegisterUser" asp-action="Index">Sign Up</a>
+                            </li>
+                        }
                     </ul>
                 </div>
             </div>
@@ -45,7 +63,7 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2024 - Elif Nurber Borucu @* - EventManagementApp.UI - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a> *@
+            &copy; 2024 - Event Website
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

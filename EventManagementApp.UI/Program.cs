@@ -8,6 +8,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using EventManagementApp.Data;
+using EventManagementApp.Data.Entities;
+using Microsoft.AspNetCore.Identity;
+using System;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -25,7 +28,18 @@ builder.Services.AddDbContext<ApplicationDbContext>(
 // Add Business Services
 builder.Services.AddScoped<IEventService, EventService>();
 
+// Add Identity services
+builder.Services.AddDbContext<ApplicationDbContext>();
+builder.Services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<ApplicationDbContext>().AddDefaultTokenProviders();
+
+builder.Services.ConfigureApplicationCookie(options =>
+{
+    options.LoginPath = "/RegisterUser/Login";
+    options.AccessDeniedPath = "/RegisterUser/AccessDenied";
+});
+
 var app = builder.Build();
+
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
@@ -47,6 +61,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(

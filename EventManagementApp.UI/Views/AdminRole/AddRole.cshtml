@@ -1,0 +1,21 @@
+﻿@model EventManagementApp.UI.Models.Identity.RoleViewModel
+
+@{
+    ViewData["Title"] = "Create Role";
+}
+
+<h1>Create Role</h1>
+
+<form method="post">
+    <div class="mb-3">
+        <label asp-for="@Model.Name" class="form-label"></label>
+        <input asp-for="@Model.Name" class="form-control" />
+        <span asp-validation-for="@Model.Name" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Create</button>
+    <div class="text-danger" asp-validation-summary="ModelOnly"></div>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

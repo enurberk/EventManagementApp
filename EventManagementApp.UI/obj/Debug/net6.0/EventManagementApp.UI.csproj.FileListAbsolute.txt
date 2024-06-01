@@ -37,6 +37,7 @@ C:\Users\elifn\OneDrive\Masaüstü\EventManagementApp\EventManagementApp.UI\bin\
 C:\Users\elifn\OneDrive\Masaüstü\EventManagementApp\EventManagementApp.UI\bin\Debug\net6.0\EventManagementApp.UI.dll
 C:\Users\elifn\OneDrive\Masaüstü\EventManagementApp\EventManagementApp.UI\bin\Debug\net6.0\EventManagementApp.UI.pdb
 C:\Users\elifn\OneDrive\Masaüstü\EventManagementApp\EventManagementApp.UI\bin\Debug\net6.0\Humanizer.dll
+C:\Users\elifn\OneDrive\Masaüstü\EventManagementApp\EventManagementApp.UI\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\elifn\OneDrive\Masaüstü\EventManagementApp\EventManagementApp.UI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\elifn\OneDrive\Masaüstü\EventManagementApp\EventManagementApp.UI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\elifn\OneDrive\Masaüstü\EventManagementApp\EventManagementApp.UI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
@@ -44,6 +45,7 @@ C:\Users\elifn\OneDrive\Masaüstü\EventManagementApp\EventManagementApp.UI\bin\
 C:\Users\elifn\OneDrive\Masaüstü\EventManagementApp\EventManagementApp.UI\bin\Debug\net6.0\Microsoft.VisualStudio.Web.BrowserLink.dll
 C:\Users\elifn\OneDrive\Masaüstü\EventManagementApp\EventManagementApp.UI\bin\Debug\net6.0\MySqlConnector.dll
 C:\Users\elifn\OneDrive\Masaüstü\EventManagementApp\EventManagementApp.UI\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\elifn\OneDrive\Masaüstü\EventManagementApp\EventManagementApp.UI\bin\Debug\net6.0\System.Security.Permissions.dll
 C:\Users\elifn\OneDrive\Masaüstü\EventManagementApp\EventManagementApp.UI\bin\Debug\net6.0\EventManagementApp.Business.dll
 C:\Users\elifn\OneDrive\Masaüstü\EventManagementApp\EventManagementApp.UI\bin\Debug\net6.0\EventManagementApp.Core.dll
 C:\Users\elifn\OneDrive\Masaüstü\EventManagementApp\EventManagementApp.UI\bin\Debug\net6.0\EventManagementApp.Data.dll
@@ -75,5 +77,3 @@ C:\Users\elifn\OneDrive\Masaüstü\EventManagementApp\EventManagementApp.UI\obj\
 C:\Users\elifn\OneDrive\Masaüstü\EventManagementApp\EventManagementApp.UI\obj\Debug\net6.0\EventManagementApp.UI.pdb
 C:\Users\elifn\OneDrive\Masaüstü\EventManagementApp\EventManagementApp.UI\obj\Debug\net6.0\EventManagementApp.UI.genruntimeconfig.cache
 C:\Users\elifn\OneDrive\Masaüstü\EventManagementApp\EventManagementApp.UI\obj\Debug\net6.0\ref\EventManagementApp.UI.dll
-C:\Users\elifn\OneDrive\Masaüstü\EventManagementApp\EventManagementApp.UI\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-C:\Users\elifn\OneDrive\Masaüstü\EventManagementApp\EventManagementApp.UI\bin\Debug\net6.0\System.Security.Permissions.dll

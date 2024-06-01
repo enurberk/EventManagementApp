@@ -1,22 +1,26 @@
 ﻿using EventManagementApp.Data.Entities;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace EventManagementApp.Data.Context
 {
-    public class ApplicationDbContext : DbContext
+    public class ApplicationDbContext : IdentityDbContext<AppUser, AppRole, int>
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
         public DbSet<Event> Events { get; set; }
-
+        public DbSet<AppUser> AppUsers { get; set; }
+        public DbSet<AppRole> AppRoles { get; set; }
         protected override void OnModelCreating(ModelBuilder builder)
         {
             builder.Entity<Event>(ConfigureEvent);
+            base.OnModelCreating(builder);
         }
         private void ConfigureEvent(EntityTypeBuilder<Event> builder)
         {
